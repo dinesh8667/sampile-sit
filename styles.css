@@ -1,0 +1,213 @@
+.main-body{
+    background:linear-gradient(240deg,rgb(175,210,200),rgb(14, 117, 83));
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border: 4px solid rgba(255, 255, 255, 0.879);
+    border-radius: 15px;
+}
+
+.nav-border{
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.counts{
+    gap: 78px;
+}
+
+.for-follow{
+    display: flex;
+}
+
+hr{
+    width: 27%;
+    margin: auto;
+    padding-bottom: 13px;
+    color: #adb5bd;
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.sec-1{
+    background: linear-gradient(43deg,#cee9ca,#ffffff);
+}
+
+.count-box{
+    background:linear-gradient(45deg,rgb(90,87,61),rgba(0, 0, 0, 0.137));
+}
+
+
+.disc-box{
+    background:linear-gradient(45deg,rgb(14, 117, 83),rgb(167, 214, 201));
+}
+
+.profile-info{
+    background:linear-gradient(45deg,rgb(90,87,61),rgba(0, 0, 0, 0.137));
+}
+
+.lines, hr{
+    color: #16805c;
+}
+
+.follow-botton{
+    background:linear-gradient(45deg,rgb(14, 117, 83),rgb(167, 214, 201));
+}
+
+.wa-profile{
+    width: 45px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.wa-text-area{
+    background-image: url(/My-first-web-page/img/Whatsapp-Background.jpg);
+    
+}
+
+.wa-qr{
+    width: 400px;
+    border: 5px solid #ffffff;
+    border-radius: 18px;
+}
+
+.time{
+    font-size: 10px;
+}
+
+.hi-msg{
+    width: 100px;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+.type-area{
+    display: flex;
+}
+
+.text-typing{
+    
+    padding: 7px 590px 7px 7px;
+}
+
+.send-icon{
+    width: 20px;
+    margin-left:25px;
+    margin-bottom: 5px;
+}
+
+.note-icon{
+    width: 18px;
+    margin-right: 25px;
+}
+
+.filter-icon{
+    width: 18px;
+}
+
+.search-icon{
+    width: 12px;
+    margin-bottom: 1px;
+}
+
+.search-tag{
+    font-size: 14.5px;
+    letter-spacing: 0.5px;
+    margin-left: 3px;
+}
+
+.search-bar{
+    border: 0.1px solid gray;
+    margin: 25px 10px;
+    padding: 1px 15px;
+    border-radius: 4px;
+}
+
+.search-bar-profile{
+    width: 50px;
+}
+
+.profile-name{
+    padding: 0px 7px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-teb{
+    margin: 0px 10px;
+}
+
+.tab-name{
+    font-size: 17px;
+    margin: 3px 0px;
+}
+
+.gallery-icon{
+    width: 14px;
+    height: 14px;
+    margin-top: 3px;
+}
+
+.recent-msg{
+    display: flex;
+}
+
+.recent-text{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 3px;
+    color: gray;
+}
+
+.last-chat-time{
+    font-size: 9px;
+    margin-top: 5px;
+}
+
+.protect{
+    margin: 30px 0px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.lock-icon{
+    width: 12px;
+    height: 12px;
+}
+
+.protect-text{
+    font-size: 11px;
+    color: gray;
+}
+
+.call-logs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vcall{
+    width: 22px;
+    margin: 5px 7px;
+}
+
+
+.magnifier{
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
